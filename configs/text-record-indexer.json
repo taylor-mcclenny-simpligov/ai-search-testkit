@@ -1,0 +1,51 @@
+{
+  "name": "text-records-indexer",
+  "dataSourceName": "text-records-ds",
+  "targetIndexName": "simpligov-text-records",
+  "schedule": { "interval": "PT4H" },
+  "parameters": {
+    "maxFailedItems": 1000,
+    "maxFailedItemsPerBatch": 50,
+    "configuration": {
+      "parsingMode": "json",
+      "dataToExtract": "contentAndMetadata",
+      "indexedFileNameExtensions": ".json",
+      "failOnUnsupportedContentType": false
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "metadata_storage_path",
+      "targetFieldName": "sourcePath"
+    },
+    {
+      "sourceFieldName": "metadata_storage_path",
+      "targetFieldName": "tenantId",
+      "mappingFunction": { "name": "extractTokenAtPosition", "parameters": { "delimiter": "/", "position": 4 } }
+    },
+    {
+      "sourceFieldName": "metadata_storage_path",
+      "targetFieldName": "parentId",
+      "mappingFunction": { "name": "extractTokenAtPosition", "parameters": { "delimiter": "/", "position": 5 } }
+    },
+    {
+      "sourceFieldName": "metadata_storage_path",
+      "targetFieldName": "id",
+      "mappingFunction": { "name": "extractTokenAtPosition", "parameters": { "delimiter": "/", "position": 5 } }
+    }
+  ],
+  "outputFieldMappings": [
+    { "sourceFieldName": "/document/name", "targetFieldName": "name" },
+    { "sourceFieldName": "/document/workflowId", "targetFieldName": "workflowId" },
+    { "sourceFieldName": "/document/sgwUrl", "targetFieldName": "sgwUrl" },
+    { "sourceFieldName": "/document/pdfUrl", "targetFieldName": "pdfUrl" },
+    { "sourceFieldName": "/document/themeCssUrl", "targetFieldName": "themeCssUrl" },
+
+    { "sourceFieldName": "/document/text_full", "targetFieldName": "text_full" },
+    { "sourceFieldName": "/document/text_main", "targetFieldName": "text_main" },
+    { "sourceFieldName": "/document/text_meta", "targetFieldName": "text_meta" },
+    { "sourceFieldName": "/document/vector_full", "targetFieldName": "vector_full" },
+    { "sourceFieldName": "/document/vector_main", "targetFieldName": "vector_main" },
+    { "sourceFieldName": "/document/vector_meta", "targetFieldName": "vector_meta" }
+  ]
+}

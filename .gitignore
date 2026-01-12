@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+.env.*
+
+# Logs / runs
+runs/
+logs/
+outputs/
+tmp/
+tests/2026.01.08-*/
+query_results*.json*
+
+# Benchmark artifacts (if large)
+benchmarks/v1/corpus/
+benchmarks/v1/labels.json
+downloads/
+
+# External deps
+sgw-converter/
+
+# Editors
+.vscode/
+.idea/

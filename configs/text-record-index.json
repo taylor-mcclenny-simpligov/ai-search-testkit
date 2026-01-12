@@ -1,0 +1,61 @@
+{
+  "name": "simpligov-text-records",
+  "fields": [
+    { "name": "id", "type": "Edm.String", "key": true, "searchable": false, "filterable": true, "sortable": false, "facetable": false, "retrievable": true, "stored": true },
+    { "name": "tenantId", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
+    { "name": "parentId", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
+    { "name": "workflowId", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
+    { "name": "name", "type": "Edm.String", "searchable": true, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
+    { "name": "sourcePath", "type": "Edm.String", "searchable": true, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
+    { "name": "sgwUrl", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
+    { "name": "pdfUrl", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
+    { "name": "themeCssUrl", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
+    { "name": "version", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
+
+    { "name": "text_full", "type": "Edm.String", "searchable": true, "retrievable": true, "stored": true },
+    { "name": "text_main", "type": "Edm.String", "searchable": true, "retrievable": true, "stored": true },
+    { "name": "text_meta", "type": "Edm.String", "searchable": true, "retrievable": true, "stored": true },
+
+    { "name": "vector_full", "type": "Collection(Edm.Single)", "searchable": true, "retrievable": false, "stored": false, "dimensions": 1536, "vectorSearchProfile": "text-vector-profile" },
+    { "name": "vector_main", "type": "Collection(Edm.Single)", "searchable": true, "retrievable": false, "stored": false, "dimensions": 1536, "vectorSearchProfile": "text-vector-profile" },
+    { "name": "vector_meta", "type": "Collection(Edm.Single)", "searchable": true, "retrievable": false, "stored": false, "dimensions": 1536, "vectorSearchProfile": "text-vector-profile" }
+  ],
+  "vectorSearch": {
+    "algorithms": [
+      {
+        "name": "hnsw-text",
+        "kind": "hnsw",
+        "hnswParameters": { "metric": "cosine", "m": 4, "efConstruction": 400, "efSearch": 500 }
+      }
+    ],
+    "profiles": [
+      { "name": "text-vector-profile", "algorithm": "hnsw-text", "vectorizer": "openai-vectorizer" }
+    ],
+    "vectorizers": [
+      {
+        "name": "openai-vectorizer",
+        "kind": "azureOpenAI",
+        "azureOpenAIParameters": {
+          "resourceUri": "https://simpligov-dev-openai.openai.azure.com",
+          "deploymentId": "text-embedding-3-small",
+          "modelName": "text-embedding-3-small"
+        }
+      }
+    ]
+  },
+  "similarity": { "@odata.type": "#Microsoft.Azure.Search.BM25Similarity" },
+  "semantic": {
+    "configurations": [
+      {
+        "name": "text-semantic-config",
+        "prioritizedFields": {
+          "titleField": { "fieldName": "name" },
+          "prioritizedContentFields": [
+            { "fieldName": "text_full" },
+            { "fieldName": "text_main" }
+          ]
+        }
+      }
+    ]
+  }
+}

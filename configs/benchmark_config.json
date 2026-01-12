@@ -1,0 +1,27 @@
+{
+  "benchmark_version": "v1",
+  "corpus_path": "benchmarks/v1/corpus",
+  "labels_path": "benchmarks/v1/labels.json",
+  "manifest_builder": {
+    "template": "{tenantId}/{workflowId}/manifest.json"
+  },
+  "embedding": {
+    "model": "text-embedding-3-small",
+    "max_chars": 8000,
+    "chunking": "page"
+  },
+  "search": {
+    "endpoint": "",
+    "index_name": "",
+    "api_key": "",
+    "vector_fields": {
+      "semantics": "semantics_vector",
+      "layout": "layout_vector",
+      "workflow": "workflow_vector"
+    }
+  },
+  "storage": {
+    "container": "",
+    "prefix": ""
+  }
+}
