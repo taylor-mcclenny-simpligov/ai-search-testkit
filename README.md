@@ -8,7 +8,7 @@ Benchmark and evaluation toolkit for SGW similarity search. This repo will host 
 
 ## Current pipelines
 
-- **Text-records (TRS-MVP-2)**: runtime PDF → `trs_mvp2_extract.py` → `text_record_trs_mvp2_query_log.py` against `simpligov-text-records` (service-side vector search). Truncates oversized inputs (~8k chars/field) to avoid Azure Search 502s; warns on truncation.
+- **Text-records (TRS)**: runtime PDF → `trs_extract.py` → query loggers (e.g., `trs_mvp3_query_log.py`) against `simpligov-text-records` (service-side vector search). Uses deduped headings/fields, headings→fields→semantics order, and a semantics-first token budget.
 - **TM-MVP-1 (legacy)**: kept for comparison; scripts remain under the original names.
 - **Benchmarks**: compressed `.sgws` gold standards and similarity scoring (see `docs/indexing-search-params.md`).
 

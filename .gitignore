@@ -25,3 +25,6 @@ sgw-converter/
 # Editors
 .vscode/
 .idea/
+
+# Local archives
+archive/

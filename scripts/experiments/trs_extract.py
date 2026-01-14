@@ -1,8 +1,8 @@
 """Author: Taylor M
-TM-MVP-1 experimental extractor: pull text + candidate field labels from a PDF.
+TRS PDF extractor: pull text + candidate field labels from a PDF.
 
 Usage:
-  python scripts/experiments/tm_mvp1_extract.py --pdf /path/to/file.pdf [--out out.json]
+  python scripts/experiments/trs_extract.py --pdf /path/to/file.pdf [--out out.json]
 
 Outputs:
   JSON with:
@@ -105,7 +105,7 @@ def extract(pdf_path: Path):
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="TM-MVP-1 PDF extractor")
+    ap = argparse.ArgumentParser(description="TRS-MVP-2 PDF extractor")
     ap.add_argument("--pdf", required=True, help="Path to PDF")
     ap.add_argument("--out", help="Output JSON path")
     args = ap.parse_args()
@@ -115,7 +115,7 @@ def main() -> None:
         raise SystemExit(f"PDF not found: {pdf_path}")
 
     result = extract(pdf_path)
-    out_path = Path(args.out) if args.out else Path("outputs/experiments/TM-MVP-1") / f"{pdf_path.stem}.json"
+    out_path = Path(args.out) if args.out else Path("outputs/experiments/TRS-MVP-2") / f"{pdf_path.stem}.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(f"Wrote {out_path}")

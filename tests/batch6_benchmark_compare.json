@@ -1,0 +1,841 @@
+[
+  {
+    "parent": "0008fffc-ba8a-4837-b912-018a2014f411",
+    "benchmark_top5": [
+      "0008fffc-ba8a-4837-b912-018a2014f411",
+      "26149f82-95fb-47c3-92a3-a3caebe073a6",
+      "28412c8f-c394-41b4-a640-eeaaf3ebfcd8",
+      "bc0cbdcc-9361-4ba0-8c06-c57a145edee9",
+      "5d4e8bce-78c9-4e37-86cf-a3e47bfd5b66"
+    ],
+    "trs_top5": [
+      "0008fffc-ba8a-4837-b912-018a2014f411",
+      "bc0cbdcc-9361-4ba0-8c06-c57a145edee9",
+      "aed1166f-c47b-4a5a-ad41-afc73f798b1a",
+      "c8fb5adc-9f10-4c63-9f16-ee5dc3cf00fa",
+      "a3f5d3ff-375b-4f77-b3ed-26570201e5ed"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "0008fffc-ba8a-4837-b912-018a2014f411",
+      "26149f82-95fb-47c3-92a3-a3caebe073a6",
+      "bc0cbdcc-9361-4ba0-8c06-c57a145edee9",
+      "c8fb5adc-9f10-4c63-9f16-ee5dc3cf00fa",
+      "aed1166f-c47b-4a5a-ad41-afc73f798b1a"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "002bb7ba-c00b-4b4c-9804-b75815030c87",
+    "benchmark_top5": [
+      "002bb7ba-c00b-4b4c-9804-b75815030c87",
+      "4513c50c-26c6-492c-b134-23981521577f",
+      "11d4287e-258e-44c5-bd0d-1db92df14a1c",
+      "25db799f-097a-494a-a7d5-f22e5f38ff91",
+      "7b04c32d-597e-40d7-9510-37e7f6f711d0"
+    ],
+    "trs_top5": [
+      "002bb7ba-c00b-4b4c-9804-b75815030c87",
+      "4513c50c-26c6-492c-b134-23981521577f",
+      "02bad52b-a568-4895-8de8-6f25efd8e627",
+      "e53d0153-4e43-4be3-b4eb-8d2fd26b6e97",
+      "2ff1e0aa-9690-4147-a5c3-63f33383c60b"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "002bb7ba-c00b-4b4c-9804-b75815030c87",
+      "f9134e86-82ee-41f6-a9a5-8708555a3674",
+      "e53d0153-4e43-4be3-b4eb-8d2fd26b6e97",
+      "4513c50c-26c6-492c-b134-23981521577f",
+      "02bad52b-a568-4895-8de8-6f25efd8e627"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "007d689e-390f-4612-bb39-3795f24b2af2",
+    "benchmark_top5": [
+      "007d689e-390f-4612-bb39-3795f24b2af2",
+      "053511ce-1e10-48ae-9e54-e47dd0a7efe8",
+      "6729c387-4f62-4edd-b7b1-95f3912c61a3",
+      "10c33108-7806-404f-a50a-d91c1438b2b5",
+      "a2cce145-7027-47c1-a175-32680e822bc4"
+    ],
+    "trs_top5": [
+      "007d689e-390f-4612-bb39-3795f24b2af2",
+      "60b6be40-0927-4ee0-806c-19262f8362f6",
+      "f329f88c-95a2-4d1c-9079-fd402b0e7255",
+      "54b4ae8f-e3f5-4c1e-aa73-4144e4af115c",
+      "108014c9-5d38-42d1-b877-315d8caf96c8"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 1,
+    "roko_top5": [
+      "007d689e-390f-4612-bb39-3795f24b2af2",
+      "60b6be40-0927-4ee0-806c-19262f8362f6",
+      "f329f88c-95a2-4d1c-9079-fd402b0e7255",
+      "31645c65-5e82-499f-ba85-64ba9c6e69d8",
+      "6729c387-4f62-4edd-b7b1-95f3912c61a3"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "0294afed-ee87-4de7-b414-13475003e9c8",
+    "benchmark_top5": [
+      "0294afed-ee87-4de7-b414-13475003e9c8",
+      "04539318-b535-4595-b902-8923b79e8c74",
+      "c1d543f0-be92-4eee-b97b-6d72035134b6",
+      "d69dc2cb-e25b-4e99-bc36-a17b3542f58e",
+      "69b9bed9-c23c-4e0e-b9b1-a98523ab572f"
+    ],
+    "trs_top5": [
+      "0294afed-ee87-4de7-b414-13475003e9c8",
+      "a0237b00-7413-44b1-94dc-80e3cb637884",
+      "522d8c95-7a25-45f2-9799-125f4ec65d8d",
+      "69b9bed9-c23c-4e0e-b9b1-a98523ab572f",
+      "30195862-4758-4362-b7ac-ae385124b1c5"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "0294afed-ee87-4de7-b414-13475003e9c8",
+      "522d8c95-7a25-45f2-9799-125f4ec65d8d",
+      "30195862-4758-4362-b7ac-ae385124b1c5",
+      "69b9bed9-c23c-4e0e-b9b1-a98523ab572f",
+      "6bab9bc0-12b8-43cf-931a-df85209b13d0"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "02bad52b-a568-4895-8de8-6f25efd8e627",
+    "benchmark_top5": [
+      "02bad52b-a568-4895-8de8-6f25efd8e627",
+      "07f60e4a-381c-4392-a078-57cd5926f8d8",
+      "12365ec9-e873-4ce0-8c6e-b56f4614a8b1",
+      "04539318-b535-4595-b902-8923b79e8c74",
+      "cd60d69f-25ff-4336-8866-acf4e42ffafe"
+    ],
+    "trs_top5": [
+      "02bad52b-a568-4895-8de8-6f25efd8e627",
+      "cd60d69f-25ff-4336-8866-acf4e42ffafe",
+      "f3d1dac2-97b7-471f-b017-affdb4c94520",
+      "e53d0153-4e43-4be3-b4eb-8d2fd26b6e97",
+      "002bb7ba-c00b-4b4c-9804-b75815030c87"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "02bad52b-a568-4895-8de8-6f25efd8e627",
+      "cd60d69f-25ff-4336-8866-acf4e42ffafe",
+      "1f03f1e9-1f9b-47a7-b7cb-30f693ea7985",
+      "f3d1dac2-97b7-471f-b017-affdb4c94520",
+      "1f01e53a-b647-4d5e-9711-21057f99143a"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "034b0143-9736-4b67-ae36-be1ad6f73fe7",
+    "benchmark_top5": [
+      "034b0143-9736-4b67-ae36-be1ad6f73fe7",
+      "3b35910a-7819-4c82-b138-fbf49e7a6be2",
+      "11d4287e-258e-44c5-bd0d-1db92df14a1c",
+      "52266743-a760-417f-aa70-ea385f470d2a",
+      "bf3b11de-7aee-4e83-a43d-d28522cc0ca4"
+    ],
+    "trs_top5": [
+      "034b0143-9736-4b67-ae36-be1ad6f73fe7",
+      "3b35910a-7819-4c82-b138-fbf49e7a6be2",
+      "11d4287e-258e-44c5-bd0d-1db92df14a1c",
+      "cc3c19f4-d957-4447-9968-661f3f7e8933",
+      "52266743-a760-417f-aa70-ea385f470d2a"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 4,
+    "roko_top5": [
+      "034b0143-9736-4b67-ae36-be1ad6f73fe7",
+      "3b35910a-7819-4c82-b138-fbf49e7a6be2",
+      "f7bdd2d3-5a4d-404d-85b7-fda8bd67dcd7",
+      "11d4287e-258e-44c5-bd0d-1db92df14a1c",
+      "52266743-a760-417f-aa70-ea385f470d2a"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 4
+  },
+  {
+    "parent": "041df29f-830a-4ea5-a354-f3c318f8489b",
+    "benchmark_top5": [
+      "041df29f-830a-4ea5-a354-f3c318f8489b",
+      "07f60e4a-381c-4392-a078-57cd5926f8d8",
+      "e5bcd779-258c-4e8b-b5e4-f9755c6f2fb7",
+      "04539318-b535-4595-b902-8923b79e8c74",
+      "870da3f1-bda3-439b-af43-4ce5bbdd2344"
+    ],
+    "trs_top5": [
+      "041df29f-830a-4ea5-a354-f3c318f8489b",
+      "e5bcd779-258c-4e8b-b5e4-f9755c6f2fb7",
+      "870da3f1-bda3-439b-af43-4ce5bbdd2344",
+      "77ae17e3-1d78-4ba4-93e9-56dd52bae482",
+      "52e7fa43-a84d-4549-b44b-457a4d88794c"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "041df29f-830a-4ea5-a354-f3c318f8489b",
+      "e5bcd779-258c-4e8b-b5e4-f9755c6f2fb7",
+      "870da3f1-bda3-439b-af43-4ce5bbdd2344",
+      "669f4bcd-a2be-48ad-b0c7-1f7dbe49a0ad"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "053511ce-1e10-48ae-9e54-e47dd0a7efe8",
+    "benchmark_top5": [
+      "053511ce-1e10-48ae-9e54-e47dd0a7efe8",
+      "007d689e-390f-4612-bb39-3795f24b2af2",
+      "10c33108-7806-404f-a50a-d91c1438b2b5",
+      "8f269981-7335-488a-8ad9-f0d10f83d2ec",
+      "07f60e4a-381c-4392-a078-57cd5926f8d8"
+    ],
+    "trs_top5": [
+      "053511ce-1e10-48ae-9e54-e47dd0a7efe8",
+      "431dfd06-f106-460d-8c9f-f0b3f914324d",
+      "6826fa0d-7c84-4748-83f4-7a41babc5d8a",
+      "5afd498e-0ddb-4e27-bbcc-3c11fe113cf0",
+      "7cd88480-888f-4ed7-9925-cf955f87fcd4"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 1,
+    "roko_top5": [
+      "053511ce-1e10-48ae-9e54-e47dd0a7efe8",
+      "75015f0f-7584-4aa8-b6af-56c3b3d3629e",
+      "bf7e30e7-48b2-48e4-8f75-e4a5e9e08b9a",
+      "7cd88480-888f-4ed7-9925-cf955f87fcd4",
+      "e0e00451-ae1c-4b41-8718-735f2253476e"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 1
+  },
+  {
+    "parent": "07e2bf75-5267-4f24-bb03-d594ce3c8ba3",
+    "benchmark_top5": [
+      "07e2bf75-5267-4f24-bb03-d594ce3c8ba3",
+      "1281678c-fe37-48d5-9e82-d6f452b2c442",
+      "5335f52c-9908-46d8-b3b3-ac588739faf2",
+      "12365ec9-e873-4ce0-8c6e-b56f4614a8b1",
+      "02bad52b-a568-4895-8de8-6f25efd8e627"
+    ],
+    "trs_top5": [
+      "07e2bf75-5267-4f24-bb03-d594ce3c8ba3",
+      "1281678c-fe37-48d5-9e82-d6f452b2c442",
+      "dd278158-30db-4940-ac6b-b66f83f4b53b",
+      "5335f52c-9908-46d8-b3b3-ac588739faf2",
+      "b83682a9-4bef-4a03-ac97-92c4312e2fce"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "07e2bf75-5267-4f24-bb03-d594ce3c8ba3",
+      "5335f52c-9908-46d8-b3b3-ac588739faf2",
+      "1281678c-fe37-48d5-9e82-d6f452b2c442",
+      "237080e9-232a-42db-97fa-27325d48a370",
+      "dd278158-30db-4940-ac6b-b66f83f4b53b"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "07f60e4a-381c-4392-a078-57cd5926f8d8",
+    "benchmark_top5": [
+      "07f60e4a-381c-4392-a078-57cd5926f8d8",
+      "02bad52b-a568-4895-8de8-6f25efd8e627",
+      "04539318-b535-4595-b902-8923b79e8c74",
+      "12365ec9-e873-4ce0-8c6e-b56f4614a8b1",
+      "12a67a24-78a2-43ce-b72d-9e25f1c664e7"
+    ],
+    "trs_top5": [
+      "07f60e4a-381c-4392-a078-57cd5926f8d8",
+      "80cf5716-47df-4b7c-8e0a-8f4d5996cbe5",
+      "3b7d6e36-6f6f-49d3-9cba-34c5683e573b",
+      "1bd5ef48-d429-4c37-8708-fa8522094702",
+      "7b04c32d-597e-40d7-9510-37e7f6f711d0"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 1,
+    "roko_top5": [
+      "07f60e4a-381c-4392-a078-57cd5926f8d8",
+      "80cf5716-47df-4b7c-8e0a-8f4d5996cbe5",
+      "3b7d6e36-6f6f-49d3-9cba-34c5683e573b",
+      "2d8fee56-5614-4286-beda-25047670fcf9",
+      "6729c387-4f62-4edd-b7b1-95f3912c61a3"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 1
+  },
+  {
+    "parent": "0f509a0d-892d-408d-a79d-bab4928e963a",
+    "benchmark_top5": [
+      "0f509a0d-892d-408d-a79d-bab4928e963a",
+      "34a36f74-d4be-40d7-a4fc-60be412edb08",
+      "d94b23c4-5871-4884-b929-90330b8a3e83",
+      "c40b982d-d9da-49dd-9392-ee3b2327e6ac",
+      "a944aa88-9d8a-4338-b490-613139828917"
+    ],
+    "trs_top5": [
+      "0f509a0d-892d-408d-a79d-bab4928e963a",
+      "a944aa88-9d8a-4338-b490-613139828917",
+      "aa847521-d97b-476b-9ac7-319df4e2eae3",
+      "c40b982d-d9da-49dd-9392-ee3b2327e6ac",
+      "e3f9c1e7-7ffe-4bb4-85e5-ef8077905b34"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "0f509a0d-892d-408d-a79d-bab4928e963a",
+      "a944aa88-9d8a-4338-b490-613139828917",
+      "481fd717-9438-4e44-a05d-5af2f950a17e",
+      "c40b982d-d9da-49dd-9392-ee3b2327e6ac",
+      "34a36f74-d4be-40d7-a4fc-60be412edb08"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 4
+  },
+  {
+    "parent": "0fb6d19a-eb8a-4be9-9d99-baa44e5541a5",
+    "benchmark_top5": [
+      "0fb6d19a-eb8a-4be9-9d99-baa44e5541a5",
+      "0c339fe2-7a6d-4359-b64d-38d46069a9d3",
+      "f37f94bf-309a-4612-b42d-25e95d059c96",
+      "002bb7ba-c00b-4b4c-9804-b75815030c87",
+      "81b50218-b8e1-4afa-9dad-e2b6cbb53de4"
+    ],
+    "trs_top5": [
+      "0fb6d19a-eb8a-4be9-9d99-baa44e5541a5",
+      "0c339fe2-7a6d-4359-b64d-38d46069a9d3",
+      "81b50218-b8e1-4afa-9dad-e2b6cbb53de4",
+      "c1ba3998-4c4c-4024-a87e-0e2c17b19647",
+      "7b04c32d-597e-40d7-9510-37e7f6f711d0"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "0fb6d19a-eb8a-4be9-9d99-baa44e5541a5",
+      "0c339fe2-7a6d-4359-b64d-38d46069a9d3",
+      "81b50218-b8e1-4afa-9dad-e2b6cbb53de4",
+      "9ef0446d-df57-4b25-9cf3-a13c7ea0587e",
+      "d6392e9e-12dc-499f-a758-f0c37682fd42"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "0ff5d792-704c-410d-b887-93f2ee767ee7",
+    "benchmark_top5": [
+      "0ff5d792-704c-410d-b887-93f2ee767ee7",
+      "04539318-b535-4595-b902-8923b79e8c74",
+      "d6124eac-c5af-4c0f-802d-bf1c4f840858",
+      "77ae17e3-1d78-4ba4-93e9-56dd52bae482",
+      "1b3b8358-971a-4b01-8d9b-f779aaf9f6b2"
+    ],
+    "trs_top5": [
+      "0ff5d792-704c-410d-b887-93f2ee767ee7",
+      "9df63e15-f534-4783-b959-7f374e8ec40e",
+      "d6124eac-c5af-4c0f-802d-bf1c4f840858",
+      "77ae17e3-1d78-4ba4-93e9-56dd52bae482",
+      "6c89d822-8134-45f9-8cdc-92093dca9dd0"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "d6124eac-c5af-4c0f-802d-bf1c4f840858",
+      "0ff5d792-704c-410d-b887-93f2ee767ee7",
+      "9df63e15-f534-4783-b959-7f374e8ec40e",
+      "6c89d822-8134-45f9-8cdc-92093dca9dd0",
+      "04539318-b535-4595-b902-8923b79e8c74"
+    ],
+    "roko_self1": 0,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "106dea53-5cb8-4700-841e-57168b48f83e",
+    "benchmark_top5": [
+      "106dea53-5cb8-4700-841e-57168b48f83e",
+      "04539318-b535-4595-b902-8923b79e8c74",
+      "6f4ed587-4715-44e9-b193-a841b4501ede",
+      "194d5dfd-c406-4e50-8909-507c6022f3fb",
+      "964dba65-814c-420f-bef8-18f4b115abad"
+    ],
+    "trs_top5": [
+      "106dea53-5cb8-4700-841e-57168b48f83e",
+      "6f4ed587-4715-44e9-b193-a841b4501ede",
+      "baea3e83-3095-4c22-abff-da86a0231c8b",
+      "194d5dfd-c406-4e50-8909-507c6022f3fb",
+      "e0e00451-ae1c-4b41-8718-735f2253476e"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "106dea53-5cb8-4700-841e-57168b48f83e",
+      "6f4ed587-4715-44e9-b193-a841b4501ede",
+      "194d5dfd-c406-4e50-8909-507c6022f3fb",
+      "baea3e83-3095-4c22-abff-da86a0231c8b",
+      "8a8e8465-a957-47e3-9760-b64972843480"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "108014c9-5d38-42d1-b877-315d8caf96c8",
+    "benchmark_top5": [
+      "108014c9-5d38-42d1-b877-315d8caf96c8",
+      "a844f5ff-fa8f-44ca-b8a7-e5cec4384a03",
+      "2a870c80-e19c-4a67-871f-4609af8cbc2f",
+      "46317d8f-06d3-4df8-9307-87a14ee66691",
+      "23768336-bdf6-4dcd-9b26-34c49bd79676"
+    ],
+    "trs_top5": [
+      "108014c9-5d38-42d1-b877-315d8caf96c8",
+      "2a870c80-e19c-4a67-871f-4609af8cbc2f",
+      "a844f5ff-fa8f-44ca-b8a7-e5cec4384a03",
+      "f533affe-256a-430c-96bc-2aded9bdf624",
+      "8f8271d5-f53f-478c-bb2b-280770ff9eb5"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "108014c9-5d38-42d1-b877-315d8caf96c8",
+      "609c7116-0eb3-4be8-8b72-a1cb12bf017c",
+      "cd8f4295-645c-4ebd-912a-d9cebf6f185c",
+      "2a870c80-e19c-4a67-871f-4609af8cbc2f",
+      "ec39691f-6d2a-4041-b13f-f935d9be48ec"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "11d4287e-258e-44c5-bd0d-1db92df14a1c",
+    "benchmark_top5": [
+      "11d4287e-258e-44c5-bd0d-1db92df14a1c",
+      "52266743-a760-417f-aa70-ea385f470d2a",
+      "034b0143-9736-4b67-ae36-be1ad6f73fe7",
+      "cc3c19f4-d957-4447-9968-661f3f7e8933",
+      "8e6ec07b-c155-4a1e-a621-4ecf0d9a00de"
+    ],
+    "trs_top5": [
+      "11d4287e-258e-44c5-bd0d-1db92df14a1c",
+      "034b0143-9736-4b67-ae36-be1ad6f73fe7",
+      "3b35910a-7819-4c82-b138-fbf49e7a6be2",
+      "cc3c19f4-d957-4447-9968-661f3f7e8933",
+      "52266743-a760-417f-aa70-ea385f470d2a"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 4,
+    "roko_top5": [
+      "11d4287e-258e-44c5-bd0d-1db92df14a1c",
+      "52266743-a760-417f-aa70-ea385f470d2a",
+      "58240f5c-75e3-4c6b-a335-cbebc97b9fa7",
+      "54388706-0a89-4338-a739-1e7388733e40",
+      "034b0143-9736-4b67-ae36-be1ad6f73fe7"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "12365ec9-e873-4ce0-8c6e-b56f4614a8b1",
+    "benchmark_top5": [
+      "12365ec9-e873-4ce0-8c6e-b56f4614a8b1",
+      "07f60e4a-381c-4392-a078-57cd5926f8d8",
+      "02bad52b-a568-4895-8de8-6f25efd8e627",
+      "04539318-b535-4595-b902-8923b79e8c74",
+      "df6bf63e-6012-492d-8f25-e89fc063f8f0"
+    ],
+    "trs_top5": [
+      "12365ec9-e873-4ce0-8c6e-b56f4614a8b1",
+      "18266997-a48c-4093-a4b6-f4ccb973a9ae",
+      "3ca82091-e8b3-413b-a08f-2bcaaf1fa718",
+      "dab8255b-bc73-48be-b008-62064638d157",
+      "cdd634ba-e6f0-493b-adb0-2000a3be970c"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 1,
+    "roko_top5": [
+      "12365ec9-e873-4ce0-8c6e-b56f4614a8b1",
+      "8f269981-7335-488a-8ad9-f0d10f83d2ec",
+      "878a49c8-23b9-4741-96d6-c734e49f77ce",
+      "dab8255b-bc73-48be-b008-62064638d157",
+      "b93ee413-e644-4d34-a40b-94412012d29d"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 1
+  },
+  {
+    "parent": "12a67a24-78a2-43ce-b72d-9e25f1c664e7",
+    "benchmark_top5": [
+      "12a67a24-78a2-43ce-b72d-9e25f1c664e7",
+      "07f60e4a-381c-4392-a078-57cd5926f8d8",
+      "8d99dcb0-195c-477d-8abc-15e678de1caa",
+      "0d417790-e31b-4a41-9d2f-e03f1c8c7a9a",
+      "041df29f-830a-4ea5-a354-f3c318f8489b"
+    ],
+    "trs_top5": [
+      "26847b20-eaae-4d3c-8056-d286531752d1",
+      "12a67a24-78a2-43ce-b72d-9e25f1c664e7",
+      "e5bd84f9-5299-4cf8-9e7b-d5d50c696410",
+      "e5bcd779-258c-4e8b-b5e4-f9755c6f2fb7",
+      "8d99dcb0-195c-477d-8abc-15e678de1caa"
+    ],
+    "trs_self1": 0,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "12a67a24-78a2-43ce-b72d-9e25f1c664e7",
+      "26847b20-eaae-4d3c-8056-d286531752d1",
+      "e2765e32-d342-4701-a486-fa1089bffa97",
+      "b91e8122-7a21-4d6f-a78b-9c0ba46bc032",
+      "57981be1-a073-49f4-8306-f6560d2fa24a"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 1
+  },
+  {
+    "parent": "14b9bd89-600c-442a-ad30-37aebca388fe",
+    "benchmark_top5": [
+      "14b9bd89-600c-442a-ad30-37aebca388fe",
+      "e0bad5a8-38a9-4030-a8ab-22cdb7c80c24",
+      "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+      "ee666280-16e5-422d-b988-fd767d1aa5a4",
+      "d9748c98-b4ac-4126-9c69-e3cc30778408"
+    ],
+    "trs_top5": [
+      "14b9bd89-600c-442a-ad30-37aebca388fe",
+      "e0bad5a8-38a9-4030-a8ab-22cdb7c80c24",
+      "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+      "f686b9dc-1a74-437d-b6dd-b843bb705e99",
+      "3efd4a83-8f57-4358-b933-0ee5a3d83fa3"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "14b9bd89-600c-442a-ad30-37aebca388fe",
+      "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+      "e0bad5a8-38a9-4030-a8ab-22cdb7c80c24",
+      "f686b9dc-1a74-437d-b6dd-b843bb705e99",
+      "3efd4a83-8f57-4358-b933-0ee5a3d83fa3"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "169ce5cb-cea4-4664-9149-7b08dd4f0e9a",
+    "benchmark_top5": [
+      "169ce5cb-cea4-4664-9149-7b08dd4f0e9a",
+      "52e7fa43-a84d-4549-b44b-457a4d88794c",
+      "57981be1-a073-49f4-8306-f6560d2fa24a",
+      "e2765e32-d342-4701-a486-fa1089bffa97",
+      "2e5956dd-9472-4e84-8df8-4f3bd8bda3cd"
+    ],
+    "trs_top5": [
+      "52e7fa43-a84d-4549-b44b-457a4d88794c",
+      "169ce5cb-cea4-4664-9149-7b08dd4f0e9a",
+      "e5bcd779-258c-4e8b-b5e4-f9755c6f2fb7",
+      "8d99dcb0-195c-477d-8abc-15e678de1caa",
+      "0aeb9a7c-4a45-4069-a7d7-a024c1cad6c7"
+    ],
+    "trs_self1": 0,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "169ce5cb-cea4-4664-9149-7b08dd4f0e9a",
+      "57981be1-a073-49f4-8306-f6560d2fa24a",
+      "e2765e32-d342-4701-a486-fa1089bffa97",
+      "52e7fa43-a84d-4549-b44b-457a4d88794c",
+      "26847b20-eaae-4d3c-8056-d286531752d1"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 4
+  },
+  {
+    "parent": "16d99d77-1011-48a6-9451-ad7df239a1d7",
+    "benchmark_top5": [
+      "16d99d77-1011-48a6-9451-ad7df239a1d7",
+      "609c7116-0eb3-4be8-8b72-a1cb12bf017c",
+      "dcc15292-59fa-4306-b957-d8bbb58624f2",
+      "cd95af22-4524-4fac-a20a-621b7880fe84",
+      "f11bc30d-5330-4fa3-872f-42315cd77425"
+    ],
+    "trs_top5": [
+      "16d99d77-1011-48a6-9451-ad7df239a1d7",
+      "f11bc30d-5330-4fa3-872f-42315cd77425",
+      "dcc15292-59fa-4306-b957-d8bbb58624f2",
+      "894a817b-2a5b-4c68-80d9-04bb9f45b274",
+      "c7066762-9cf8-43bc-a234-e7daf752ccec"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "16d99d77-1011-48a6-9451-ad7df239a1d7",
+      "a6cb6be2-681e-404f-94cf-f8d3f6725658",
+      "c7066762-9cf8-43bc-a234-e7daf752ccec",
+      "925e6e99-58be-422b-a692-2e9baf10ab3e",
+      "cd95af22-4524-4fac-a20a-621b7880fe84"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "16f129fa-8b7f-4bf9-818a-7ada02024720",
+    "benchmark_top5": [
+      "16f129fa-8b7f-4bf9-818a-7ada02024720",
+      "4b14eef7-7689-4ea8-b4b4-e5210265e5ac",
+      "925e6e99-58be-422b-a692-2e9baf10ab3e",
+      "7b388abc-6739-472f-90e1-5d7484ccec92",
+      "4fa975a6-2788-4708-8a9e-84d5b260b27b"
+    ],
+    "trs_top5": [
+      "16f129fa-8b7f-4bf9-818a-7ada02024720",
+      "3ca82091-e8b3-413b-a08f-2bcaaf1fa718",
+      "7c5c4fb7-aeaa-4e77-afb9-eac198474324",
+      "925e6e99-58be-422b-a692-2e9baf10ab3e",
+      "16d99d77-1011-48a6-9451-ad7df239a1d7"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "16f129fa-8b7f-4bf9-818a-7ada02024720",
+      "3ca82091-e8b3-413b-a08f-2bcaaf1fa718",
+      "2fd27480-961b-44e4-b4f0-3423b22fb8b9",
+      "7c5c4fb7-aeaa-4e77-afb9-eac198474324",
+      "d9748c98-b4ac-4126-9c69-e3cc30778408"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 1
+  },
+  {
+    "parent": "17a5d297-e149-4cc8-93c9-4ac88a93a62d",
+    "benchmark_top5": [
+      "17a5d297-e149-4cc8-93c9-4ac88a93a62d",
+      "489d66ff-58e1-4fa3-bab7-93bdfd56ade6",
+      "1cb00856-bee4-4a66-9eb8-a421fde872f1",
+      "7b388abc-6739-472f-90e1-5d7484ccec92",
+      "964dba65-814c-420f-bef8-18f4b115abad"
+    ],
+    "trs_top5": [
+      "17a5d297-e149-4cc8-93c9-4ac88a93a62d",
+      "43f8c0b4-2e4b-4813-952d-92a24d7d078a",
+      "489d66ff-58e1-4fa3-bab7-93bdfd56ade6",
+      "1cb00856-bee4-4a66-9eb8-a421fde872f1",
+      "90029746-9aa6-4791-a06e-fceaccbcf039"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 3,
+    "roko_top5": [
+      "17a5d297-e149-4cc8-93c9-4ac88a93a62d",
+      "43f8c0b4-2e4b-4813-952d-92a24d7d078a",
+      "1cb00856-bee4-4a66-9eb8-a421fde872f1",
+      "489d66ff-58e1-4fa3-bab7-93bdfd56ade6",
+      "90029746-9aa6-4791-a06e-fceaccbcf039"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "18266997-a48c-4093-a4b6-f4ccb973a9ae",
+    "benchmark_top5": [
+      "18266997-a48c-4093-a4b6-f4ccb973a9ae",
+      "ceb540d4-61c7-40fb-94b7-68a607db92bf",
+      "20b1b3ec-7378-45b6-bffc-d50a76722f5b",
+      "e2dbc60f-38ce-425f-912f-23fbf52c025b",
+      "cd13adea-e6ee-4cc2-8694-27b997082642"
+    ],
+    "trs_top5": [
+      "18266997-a48c-4093-a4b6-f4ccb973a9ae",
+      "ceb540d4-61c7-40fb-94b7-68a607db92bf",
+      "2e541b6c-bd15-4f34-b265-e3a236c3f2d9",
+      "8f8271d5-f53f-478c-bb2b-280770ff9eb5",
+      "df6bf63e-6012-492d-8f25-e89fc063f8f0"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "18266997-a48c-4093-a4b6-f4ccb973a9ae",
+      "2e541b6c-bd15-4f34-b265-e3a236c3f2d9",
+      "ceb540d4-61c7-40fb-94b7-68a607db92bf",
+      "df6bf63e-6012-492d-8f25-e89fc063f8f0",
+      "ca0fd23f-6237-4949-b866-308580544972"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "194d5dfd-c406-4e50-8909-507c6022f3fb",
+    "benchmark_top5": [
+      "194d5dfd-c406-4e50-8909-507c6022f3fb",
+      "e0e00451-ae1c-4b41-8718-735f2253476e",
+      "8079306a-bf12-4f44-afa6-17810b13c7ef",
+      "df6bf63e-6012-492d-8f25-e89fc063f8f0",
+      "8a8e8465-a957-47e3-9760-b64972843480"
+    ],
+    "trs_top5": [
+      "194d5dfd-c406-4e50-8909-507c6022f3fb",
+      "e0e00451-ae1c-4b41-8718-735f2253476e",
+      "106dea53-5cb8-4700-841e-57168b48f83e",
+      "6f4ed587-4715-44e9-b193-a841b4501ede",
+      "8b58107a-3625-4476-9707-df27f37fb29f"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "194d5dfd-c406-4e50-8909-507c6022f3fb",
+      "e0e00451-ae1c-4b41-8718-735f2253476e",
+      "106dea53-5cb8-4700-841e-57168b48f83e",
+      "6f4ed587-4715-44e9-b193-a841b4501ede",
+      "8a8e8465-a957-47e3-9760-b64972843480"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 3
+  },
+  {
+    "parent": "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+    "benchmark_top5": [
+      "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+      "3efd4a83-8f57-4358-b933-0ee5a3d83fa3",
+      "f686b9dc-1a74-437d-b6dd-b843bb705e99",
+      "1bbc1834-2225-48f8-a55a-67944593d810",
+      "e0bad5a8-38a9-4030-a8ab-22cdb7c80c24"
+    ],
+    "trs_top5": [
+      "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+      "14b9bd89-600c-442a-ad30-37aebca388fe",
+      "3efd4a83-8f57-4358-b933-0ee5a3d83fa3",
+      "e0bad5a8-38a9-4030-a8ab-22cdb7c80c24",
+      "f686b9dc-1a74-437d-b6dd-b843bb705e99"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 4,
+    "roko_top5": [
+      "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+      "3efd4a83-8f57-4358-b933-0ee5a3d83fa3",
+      "14b9bd89-600c-442a-ad30-37aebca388fe",
+      "1bbc1834-2225-48f8-a55a-67944593d810",
+      "e0bad5a8-38a9-4030-a8ab-22cdb7c80c24"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 4
+  },
+  {
+    "parent": "1a2f05cf-3c64-412b-869f-a1205dacc620",
+    "benchmark_top5": [
+      "1a2f05cf-3c64-412b-869f-a1205dacc620",
+      "91e5a831-80a3-4b28-a31e-5048b97ee496",
+      "b4b54119-4853-4f20-866d-e41a9a856bc1",
+      "8c09422c-259e-4c38-bfbc-6357722c3947",
+      "c1d543f0-be92-4eee-b97b-6d72035134b6"
+    ],
+    "trs_top5": [
+      "8a3ab75a-0d0e-4326-bee9-b639c1aa6e33",
+      "ef812aa8-6f21-4f5e-bcb6-dfeb4bf1a3d2",
+      "91e5a831-80a3-4b28-a31e-5048b97ee496",
+      "1a2f05cf-3c64-412b-869f-a1205dacc620",
+      "e6350541-72fd-4ec1-ad2d-aabe65724c2c"
+    ],
+    "trs_self1": 0,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "1a2f05cf-3c64-412b-869f-a1205dacc620",
+      "8a3ab75a-0d0e-4326-bee9-b639c1aa6e33",
+      "ef812aa8-6f21-4f5e-bcb6-dfeb4bf1a3d2",
+      "91e5a831-80a3-4b28-a31e-5048b97ee496",
+      "10c33108-7806-404f-a50a-d91c1438b2b5"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "1b0b7b1b-3aca-4b60-922c-2692828c5dab",
+    "benchmark_top5": [
+      "1b0b7b1b-3aca-4b60-922c-2692828c5dab",
+      "c0490b50-e14a-4ad5-a0ab-85e511d46376",
+      "9011e63d-3567-45ef-9402-d6f572104213",
+      "dcde207c-7ff4-493b-9d5d-542abfe98283",
+      "a5ff5da5-c286-416c-a366-79c3d0d60904"
+    ],
+    "trs_top5": [
+      "1b0b7b1b-3aca-4b60-922c-2692828c5dab",
+      "6a318cc2-662e-4777-bcda-27b936403535",
+      "912a4582-c806-40ef-82bf-69529d767c85",
+      "f9134e86-82ee-41f6-a9a5-8708555a3674",
+      "dbdd06c9-822b-44f2-be37-d599befaf4f0"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 1,
+    "roko_top5": [
+      "1b0b7b1b-3aca-4b60-922c-2692828c5dab",
+      "a5ff5da5-c286-416c-a366-79c3d0d60904",
+      "912a4582-c806-40ef-82bf-69529d767c85",
+      "b93ee413-e644-4d34-a40b-94412012d29d",
+      "dab8255b-bc73-48be-b008-62064638d157"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "1b3b8358-971a-4b01-8d9b-f779aaf9f6b2",
+    "benchmark_top5": [
+      "1b3b8358-971a-4b01-8d9b-f779aaf9f6b2",
+      "d6124eac-c5af-4c0f-802d-bf1c4f840858",
+      "449bcb3c-ada8-4e8d-ae05-8aa533ee968d",
+      "6c89d822-8134-45f9-8cdc-92093dca9dd0",
+      "85dc19a1-1e44-4d16-81cc-5eef42757935"
+    ],
+    "trs_top5": [
+      "1b3b8358-971a-4b01-8d9b-f779aaf9f6b2",
+      "9df63e15-f534-4783-b959-7f374e8ec40e",
+      "0ff5d792-704c-410d-b887-93f2ee767ee7",
+      "d6124eac-c5af-4c0f-802d-bf1c4f840858",
+      "de7a2bde-b9d6-4efa-8ac1-d708c64d6e16"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 2,
+    "roko_top5": [
+      "1b3b8358-971a-4b01-8d9b-f779aaf9f6b2",
+      "9ef0446d-df57-4b25-9cf3-a13c7ea0587e",
+      "9df63e15-f534-4783-b959-7f374e8ec40e",
+      "23675eeb-4f01-4385-8571-ff49427ade0e",
+      "6c89d822-8134-45f9-8cdc-92093dca9dd0"
+    ],
+    "roko_self1": 1,
+    "roko_overlap": 2
+  },
+  {
+    "parent": "1bbc1834-2225-48f8-a55a-67944593d810",
+    "benchmark_top5": [
+      "1bbc1834-2225-48f8-a55a-67944593d810",
+      "3efd4a83-8f57-4358-b933-0ee5a3d83fa3",
+      "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+      "f686b9dc-1a74-437d-b6dd-b843bb705e99",
+      "e0bad5a8-38a9-4030-a8ab-22cdb7c80c24"
+    ],
+    "trs_top5": [
+      "1bbc1834-2225-48f8-a55a-67944593d810",
+      "e0bad5a8-38a9-4030-a8ab-22cdb7c80c24",
+      "3efd4a83-8f57-4358-b933-0ee5a3d83fa3",
+      "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+      "f686b9dc-1a74-437d-b6dd-b843bb705e99"
+    ],
+    "trs_self1": 1,
+    "trs_overlap": 5,
+    "roko_top5": [
+      "3efd4a83-8f57-4358-b933-0ee5a3d83fa3",
+      "1bbc1834-2225-48f8-a55a-67944593d810",
+      "19fcf93b-7f4c-4129-a2d8-456f6826c21e",
+      "e0bad5a8-38a9-4030-a8ab-22cdb7c80c24",
+      "f686b9dc-1a74-437d-b6dd-b843bb705e99"
+    ],
+    "roko_self1": 0,
+    "roko_overlap": 5
+  }
+]
