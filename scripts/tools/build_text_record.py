@@ -63,7 +63,7 @@ def _build_counts_block(meta: dict) -> List[str]:
     if meta.get("formula_count") is not None:
         counts.append(f"## FORMULA_FIELDS: {meta.get('formula_count')}")
     if meta.get("attachment_count") is not None:
-    counts.append(f"## ATTACHMENT_FIELDS: {meta.get('attachment_count')}")
+        counts.append(f"## ATTACHMENT_FIELDS: {meta.get("attachment_count")}")
     return counts
 
 

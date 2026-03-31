@@ -12,9 +12,9 @@
     { "name": "themeCssUrl", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
     { "name": "version", "type": "Edm.String", "searchable": false, "filterable": true, "sortable": true, "facetable": true, "retrievable": true, "stored": true },
 
-    { "name": "text_full", "type": "Edm.String", "searchable": true, "retrievable": true, "stored": true },
-    { "name": "text_main", "type": "Edm.String", "searchable": true, "retrievable": true, "stored": true },
-    { "name": "text_meta", "type": "Edm.String", "searchable": true, "retrievable": true, "stored": true },
+    { "name": "text_full", "type": "Edm.String", "searchable": true, "retrievable": true, "stored": true, "filterable": false, "sortable": false, "facetable": false },
+    { "name": "text_main", "type": "Edm.String", "searchable": true, "retrievable": true, "stored": true, "filterable": false, "sortable": false, "facetable": false },
+    { "name": "text_meta", "type": "Edm.String", "searchable": true, "retrievable": true, "stored": true, "filterable": false, "sortable": false, "facetable": false },
 
     { "name": "vector_full", "type": "Collection(Edm.Single)", "searchable": true, "retrievable": false, "stored": false, "dimensions": 1536, "vectorSearchProfile": "text-vector-profile" },
     { "name": "vector_main", "type": "Collection(Edm.Single)", "searchable": true, "retrievable": false, "stored": false, "dimensions": 1536, "vectorSearchProfile": "text-vector-profile" },

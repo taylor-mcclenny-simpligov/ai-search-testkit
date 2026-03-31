@@ -11,7 +11,11 @@ runs/
 logs/
 outputs/
 tmp/
+tmp_*.py
+tmp_*.txt
+tmp_*.json
 tests/2026.01.08-*/
+tests/*_compare.json
 query_results*.json*
 
 # Benchmark artifacts (if large)

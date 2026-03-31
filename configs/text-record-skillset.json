@@ -1,0 +1,118 @@
+{
+  "name": "text-records-skillset",
+  "description": "Split text_full/main/meta, embed chunks with AOAI, pool to single vector",
+  "skills": [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.SplitSkill",
+      "name": "split-full",
+      "description": "Split text_full into ~4000-char chunks",
+      "context": "/document",
+      "textSplitMode": "pages",
+      "maximumPageLength": 4000,
+      "inputs": [{ "name": "text", "source": "/document/text_full" }],
+      "outputs": [{ "name": "textItems", "targetName": "full_chunks" }]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Text.SplitSkill",
+      "name": "split-main",
+      "description": "Split text_main into ~4000-char chunks",
+      "context": "/document",
+      "textSplitMode": "pages",
+      "maximumPageLength": 4000,
+      "inputs": [{ "name": "text", "source": "/document/text_main" }],
+      "outputs": [{ "name": "textItems", "targetName": "main_chunks" }]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Text.SplitSkill",
+      "name": "split-meta",
+      "description": "Split text_meta into ~4000-char chunks",
+      "context": "/document",
+      "textSplitMode": "pages",
+      "maximumPageLength": 4000,
+      "inputs": [{ "name": "text", "source": "/document/text_meta" }],
+      "outputs": [{ "name": "textItems", "targetName": "meta_chunks" }]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Text.AzureOpenAIEmbeddingSkill",
+      "name": "embed-full-chunks",
+      "context": "/document/full_chunks/*",
+      "resourceUri": "{{AZURE_OPENAI_ENDPOINT}}",
+      "deploymentId": "{{AZURE_OPENAI_EMBEDDING_DEPLOYMENT}}",
+      "modelName": "text-embedding-3-small",
+      "apiKey": "{{AZURE_OPENAI_KEY}}",
+      "inputs": [{ "name": "text", "source": "/document/full_chunks/*" }],
+      "outputs": [{ "name": "embedding", "targetName": "full_chunk_vectors" }]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Text.AzureOpenAIEmbeddingSkill",
+      "name": "embed-main-chunks",
+      "context": "/document/main_chunks/*",
+      "resourceUri": "{{AZURE_OPENAI_ENDPOINT}}",
+      "deploymentId": "{{AZURE_OPENAI_EMBEDDING_DEPLOYMENT}}",
+      "modelName": "text-embedding-3-small",
+      "apiKey": "{{AZURE_OPENAI_KEY}}",
+      "inputs": [{ "name": "text", "source": "/document/main_chunks/*" }],
+      "outputs": [{ "name": "embedding", "targetName": "main_chunk_vectors" }]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Text.AzureOpenAIEmbeddingSkill",
+      "name": "embed-meta-chunks",
+      "context": "/document/meta_chunks/*",
+      "resourceUri": "{{AZURE_OPENAI_ENDPOINT}}",
+      "deploymentId": "{{AZURE_OPENAI_EMBEDDING_DEPLOYMENT}}",
+      "modelName": "text-embedding-3-small",
+      "apiKey": "{{AZURE_OPENAI_KEY}}",
+      "inputs": [{ "name": "text", "source": "/document/meta_chunks/*" }],
+      "outputs": [{ "name": "embedding", "targetName": "meta_chunk_vectors" }]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+      "name": "pool-full",
+      "description": "Average chunk embeddings to vector_full",
+      "context": "/document",
+      "uri": "https://example.com/pool",  // placeholder, must replace
+      "httpMethod": "POST",
+      "timeout": "PT30S",
+      "batchSize": 1,
+      "inputs": [
+        { "name": "embeddings", "source": "/document/full_chunk_vectors" }
+      ],
+      "outputs": [
+        { "name": "pooled", "targetName": "vector_full" }
+      ]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+      "name": "pool-main",
+      "description": "Average chunk embeddings to vector_main",
+      "context": "/document",
+      "uri": "https://example.com/pool",  // placeholder, must replace
+      "httpMethod": "POST",
+      "timeout": "PT30S",
+      "batchSize": 1,
+      "inputs": [
+        { "name": "embeddings", "source": "/document/main_chunk_vectors" }
+      ],
+      "outputs": [
+        { "name": "pooled", "targetName": "vector_main" }
+      ]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+      "name": "pool-meta",
+      "description": "Average chunk embeddings to vector_meta",
+      "context": "/document",
+      "uri": "https://example.com/pool",  // placeholder, must replace
+      "httpMethod": "POST",
+      "timeout": "PT30S",
+      "batchSize": 1,
+      "inputs": [
+        { "name": "embeddings", "source": "/document/meta_chunk_vectors" }
+      ],
+      "outputs": [
+        { "name": "pooled", "targetName": "vector_meta" }
+      ]
+    }
+  ],
+  "cognitiveServices": null
+}

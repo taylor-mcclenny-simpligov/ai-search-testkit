@@ -102,7 +102,12 @@ def walk_and_convert(container: ContainerClient, prefix: str, limit: int, overwr
                 text = download_text(container, sgw_blob)
                 tmp = Path("temp_download.sgw")
                 tmp.write_text(text, encoding="utf-8")
-                shorthand = trim_workflow(tmp)
+                try:
+                    shorthand = trim_workflow(tmp)
+                except Exception as exc:  # pragma: no cover - defensive
+                    p(f"[skip-error] {sgw_blob}: {exc}")
+                    tmp.unlink(missing_ok=True)
+                    continue
                 out_text = json.dumps(shorthand, indent=2)
                 tmp.unlink(missing_ok=True)
                 upload_text(container, out_blob, out_text, overwrite=True)

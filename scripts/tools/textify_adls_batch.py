@@ -240,11 +240,21 @@ def main():
         text_main = "\n".join(main_lines).strip()
         # Recombine to ensure a single, non-duplicated full text
         text_full = "\n\n".join([part for part in (text_main, text_meta) if part]).strip()
-        # Truncate very long fields to avoid oversize terms
-        max_len = 30000
-        text_full = text_full[:max_len]
-        text_main = text_main[:max_len]
-        text_meta = text_meta[:max_len]
+
+        def truncate_tokens(s: str, max_tokens: int = 2200) -> str:
+            """
+            Conservative token limiter (whitespace tokenization) to stay well under AOAI 8k token limit,
+            even when subword tokenization expands the sequence length.
+            """
+            tokens = s.split()
+            if len(tokens) <= max_tokens:
+                return s
+            return " ".join(tokens[:max_tokens])
+
+        # Truncate aggressively to ~2.2k whitespace tokens per field (keeps AOAI under 8k tokens even for dense text)
+        text_full = truncate_tokens(text_full)
+        text_main = truncate_tokens(text_main)
+        text_meta = truncate_tokens(text_meta)
 
         out_txt = parent_dir / "text-record.txt"
         out_json = parent_dir / "text-record.json"

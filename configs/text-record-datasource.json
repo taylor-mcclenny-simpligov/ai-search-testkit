@@ -2,10 +2,13 @@
   "name": "text-records-ds",
   "type": "azureblob",
   "credentials": {
-    "connectionString": "{{AZURE_STORAGE_CONNECTION_STRING}}"
+    "connectionString": "__SET_VIA_SCRIPT_OR_ENV__"
   },
   "container": {
     "name": "sgw",
-    "query": "00000000-0000-0000-0000-000000000000/"
+    "query": ""
   }
 }
+
+
+
